@@ -42,7 +42,10 @@
     border-radius: 4px;
     margin-right: 120px;
 }
-
+.submit:hover{
+    cursor: pointer;
+    background: #1e8e4d;
+}
 /* hero section styling start */
 .hero-section{
     position: relative;
