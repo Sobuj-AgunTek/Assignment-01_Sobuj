@@ -44,7 +44,7 @@
 }
 .submit:hover{
     cursor: pointer;
-    background: #1e8e4d;
+    background: #1e8e4d                      ;
 }
 /* hero section styling start */
 .hero-section{
@@ -108,7 +108,7 @@
     margin: auto;
     font-size: 18px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 30px;
     margin-bottom: 24px;
 }
 .txt-2 span{
@@ -135,6 +135,10 @@
     line-height: 20px;
     vertical-align: middle;
 }
+.btn-1:hover{
+    cursor: pointer;
+    background: #28a75f;
+}
 .btn-1 img{
     width: 20px;
     height: 20px;
@@ -154,7 +158,7 @@
 /* mid-section styling start */
 .mid-section{
     text-align: center;
-    margin: 58px auto 80px auto;
+    margin: 58px auto 40px auto;
     max-width: 1360px;
 }
 .mid-section h1,
@@ -208,8 +212,8 @@
     margin-bottom: 10px;
 }
 .img-wrapper img{
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
 }
 .flex-container h2{
     font-size: 24px;
@@ -324,7 +328,7 @@
 /* footer section styling start */
 .footer{
     max-width: 1600px;
-    margin: 120px auto 0 auto;
+    margin: 80px auto 0 auto;
     background: #001931;
     height: 348px;
 }
@@ -356,13 +360,13 @@
 .social-icons a{
     width: 36px;
     height: 36px;
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #E5E5E5;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #000000;
+    color: #000;
     text-decoration: none;
     font-size: 14px;
 }
@@ -376,5 +380,7 @@
     text-align: center;
     font-size: 16px;
     color: #fafafa;
-    margin-bottom: 30px;
 }
+
+/* কিছু সমস্যা চিহ্নিত করতে পারলেও সমাধান বের করতে পারি নাই। */
+/* The End */
