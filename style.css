@@ -71,15 +71,24 @@
     color: #30B868;
     padding: 8px 18px;
     border-radius: 1000px;
-    display: inline-block;
+    height: 35px;
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
     margin-bottom: 16px;
     font-weight: 500;
 }
-.square{
-    width: 16px;
-    height: 16px;
+.highlight::before{
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
     background: #30B868;
+    box-shadow: 0 0 0 4px rgba(48, 184, 104, 0.4), 0 0 0 8px rgba(48, 184, 104, 0.2);
 }
+   
+    /* .highlight::before code tuku chatgpt teke suggestion niye tar por type kore dici. */
+
 .txt-1{
     font-size: 72px;
     font-weight: 700;
